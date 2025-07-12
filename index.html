@@ -329,7 +329,7 @@ function formatValor(valor) {
 }
 function descargarComprobante(formato) {
   html2canvas(document.getElementById('captura'), {
-    scale: 4,
+    scale: 6,
     useCORS: true
   }).then(canvas => {
     const link = document.createElement('a');
